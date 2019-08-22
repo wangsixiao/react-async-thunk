@@ -1,6 +1,12 @@
-# react-async-thunk
 
 本项目使用react-scripts启动项目，使用redux-thunk实现异步获取数据。
+
+clone项目后，启动命令
+
+```
+npm install
+npm run start
+```
 
 功能比较简单：初始状态state:{}，state: loading: true,name: ''
 loading为true时，页面使用蒙层，使用setTimeout延迟数据的获取模拟异步，3秒后蒙层消失，显示name值
@@ -53,6 +59,5 @@ export const reducers = (state={}, action) => {
   }
 }
 ```
-
 
 
